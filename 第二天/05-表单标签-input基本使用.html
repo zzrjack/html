@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单标签</title>
+</head>
+<body>
+    <!-- input的基本使用 -->
+    <!-- placeholder 提示文本 -->
+    <!-- radio 同name单选 -->
+    <form action="">
+    账号：<input type="text" placeholder="请输入账号">
+    <br>
+    密码：<input type="password" placeholder="请输入密码">
+    <br>
+    <!-- 按钮 -->
+    <input type="submit">
+    <input type="reset">
+    </form>
+    <br>
+    性别：<input type="radio" name="sex" checked id="man"><label for="man">男</label>
+        <input type="radio" name="sex" id="woman"><label for="woman">女</label>
+    <br>
+    <!-- checkbox多选 -->
+    爱好：<input type="checkbox" >
+    <br>
+    上传文件：<input type="file" multiple>
+    <br>
+    请选择你居住的城市：
+    <select name="" id="">
+        <option value="">北京</option>
+        <option value="">上海</option>
+        <option value="">深圳</option>
+        <option value="" selected>成都</option>
+    </select>
+    <br>
+    <textarea name="" id="" cols="60" rows="20" ></textarea>
+</body>
+</html>
